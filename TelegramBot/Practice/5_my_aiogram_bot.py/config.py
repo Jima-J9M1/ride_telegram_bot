@@ -1,9 +1,9 @@
 import redis
 
-API = "A4q6itr4w49cnzuzjupze2u746o3ri3okzjkyte7gvfixvme5ge"
-REDIS_CLOUD_HOST = "redis-10109.c326.us-east-1-3.ec2.cloud.redislabs.com"
+API = ""
+REDIS_CLOUD_HOST = ""
 REDIS_CLOUD_PORT = 10109
-REDIS_CLOUD_PASSWORD = "QKZbSk6kNhXIlLUs66oqpjGBDMrYlIV4"
+REDIS_CLOUD_PASSWORD = ""
 
 redis_conn = redis.StrictRedis(
     host=REDIS_CLOUD_HOST,
